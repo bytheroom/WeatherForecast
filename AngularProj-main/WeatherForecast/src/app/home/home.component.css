@@ -1,0 +1,15 @@
+body {
+    background-image: url(C:\Users\User\Desktop\weatherforecast\fon.jpg);
+    background-attachment: fixed;
+    background-size: auto auto;
+    background-repeat: repeat;
+}
+.header {
+  color: white;
+  vertical-align: middle;
+  align: center;
+}
+.input_place {
+    width: 400px;
+    height: 20px;
+}

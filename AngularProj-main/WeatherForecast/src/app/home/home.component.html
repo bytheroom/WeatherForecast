@@ -1,0 +1,12 @@
+<head>
+    
+</head>
+
+<body background="C:\Users\User\Desktop\weatherforecast\fon.jpg">
+  <p class="header"> Get knowledge bout weather r now</p>
+  <label for="city"> Input city: </label>
+  <input class="input_place" type="text" [(ngModel)]="city">
+  <button (click)="getForecast()">Show me the weather</button>
+  <div>Temperature: {{ forecasts.main.temp }}</div>
+  <div>Temperature feels like: {{ forecasts.main.feels_like }}</div>
+</body>
